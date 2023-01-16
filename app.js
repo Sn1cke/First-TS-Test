@@ -7,3 +7,8 @@ const newChar = {
     superhero: true,
 };
 console.log(newChar);
+const greeting = function (name) {
+    return console.log(`Hello ${name}`);
+};
+greeting("Snicke");
+arr.forEach(x => greeting(x));
