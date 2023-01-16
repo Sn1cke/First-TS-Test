@@ -15,8 +15,8 @@ const newChar: HeroFinder = {
 console.log(newChar);
 
 const greeting = function (name: string) {
-    return console.log(`Hello ${name}`);
+    return `Hello ${name}`;
 }
-greeting("Snicke");
+console.log(greeting("Snicke"));
 
 arr.forEach(x => greeting(x));

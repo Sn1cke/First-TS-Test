@@ -8,7 +8,7 @@ const newChar = {
 };
 console.log(newChar);
 const greeting = function (name) {
-    return console.log(`Hello ${name}`);
+    return `Hello ${name}`;
 };
-greeting("Snicke");
+console.log(greeting("Snicke"));
 arr.forEach(x => greeting(x));
